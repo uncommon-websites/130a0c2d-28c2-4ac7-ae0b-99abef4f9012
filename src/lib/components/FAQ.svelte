@@ -2,27 +2,16 @@
     let openIndex: number | null = 0;
 
     const faqs = [
-        { q: "What is the US Tech Force (Tech Force)?", a: "Tech Force will be an elite group of ~1,000 technology specialists hired by agencies to accelerate artificial intelligence (AI) implementation and solve the federal government's most critical technological challenges. Tech Force will primarily recruit early-career technologists from traditional recruiting channels, along with experienced engineering managers from private sector partners, to serve two-year employment terms in the federal government. Tech Force will include centralized organization and programming and serve as a recruiting platform post-employment." },
-        { q: "What are the key steps in the recruiting process?", a: "Details about the recruiting process..." },
-        { q: "What skills are required?", a: "Details about required skills..." },
-        { q: "Are specific educational credentials required to participate?", a: "Details about credentials..." },
-        { q: "Is there a minimum experience level required to apply?", a: "Details about experience..." },
-        { q: "Is this a political appointment?", a: "Details about political appointment..." },
-        { q: "When am I expected to start?", a: "Details about start date..." },
-        { q: "Where will the employment be located?", a: "Details about location..." },
-        { q: "What is the expected compensation for participants?", a: "Details about compensation..." },
-        { q: "What projects will participants work on?", a: "Details about projects..." },
-        { q: "What agencies will participate in Tech Force?", a: "Details about agencies..." },
-        { q: "What companies are participating in Tech Force?", a: "Details about companies..." },
-        { q: "How do private sector companies partner with Tech Force?", a: "Details about partnerships..." },
-        { q: "Are there any other benefits?", a: "Details about benefits..." },
-        { q: "What is the duration of the program?", a: "Details about duration..." },
-        { q: "What happens after the employment is completed?", a: "Details about post-employment..." },
-        { q: "What is the duration of Tech Force as a whole?", a: "Details about program duration..." },
-        { q: "Will the program have a political mission?", a: "Details about mission..." },
-        { q: "How do candidates nominated by a private sector company participate? Do they retain their private sector employment?", a: "Details about nomination..." },
-        { q: "Will participants nominated by private sector companies be able to retain their deferred compensation packages (RSUs, options, etc.)?", a: "Details about compensation packages..." },
-        { q: "How is Tech Force related to other government technology programs, including ones at GSA or the United States DOGE Service?", a: "Details about relations..." },
+        { q: "Wat is Odoo en waarom is het geschikt voor productiebedrijven?", a: "Odoo is een open-source ERP-platform dat alle bedrijfsprocessen integreert: van productie en voorraad tot verkoop, inkoop en boekhouding. Voor productiebedrijven biedt Odoo flexibiliteit om complexe workflows en maatwerk te ondersteunen zonder de beperkingen van rigide standaardsoftware." },
+        { q: "Hoe lang duurt een typische Odoo-implementatie?", a: "De duur varieert afhankelijk van de complexiteit van uw processen en het aantal modules. Een basisimplementatie voor een KMO kan 2-3 maanden duren, terwijl uitgebreidere projecten met custom modules en integraties 4-6 maanden kunnen vergen. We werken in fasen zodat u snel waarde ziet." },
+        { q: "Wat kost een Odoo-implementatie?", a: "Kosten hangen af van projectomvang, aantal gebruikers, benodigde modules en customization. We werken projectgebaseerd voor implementatie en customization, aangevuld met optionele support- en onderhoudscontracten. Neem contact op voor een offerte op maat." },
+        { q: "Kunnen jullie Odoo integreren met onze bestaande systemen?", a: "Ja, we hebben uitgebreide ervaring met API-integraties en koppelingen naar e-commerce platforms, boekhoudsoftware, marketing tools, IoT-apparaten en andere online systemen. We zorgen voor naadloze datastromen tussen al uw tools." },
+        { q: "Wat onderscheidt Digifiers van andere Odoo-partners?", a: "We zijn gespecialiseerd in Vlaamse KMO's met complexe, maatwerk productieprocessen. Als lokale, Nederlandstalige partner kennen we de uitdagingen van customized-goods manufacturers. We passen Odoo aan uw workflow aan, niet andersom." },
+        { q: "Bieden jullie support na de implementatie?", a: "Absoluut. We bieden post-go-live support en doorlopende onderhoudscontracten. Of het nu gaat om technische vragen, aanpassingen of uitbreidingen – we blijven uw partner voor de lange termijn." },
+        { q: "Wat is jullie ervaring met Odoo?", a: "Ons team heeft 15+ jaar gecombineerde ERP-ervaring, waarvan 3+ jaar specifiek met Odoo. We zijn officiële Odoo Ready Partner en werken aan Silver Partner status. We hebben ervaring met zowel standaard als complexe implementaties." },
+        { q: "Kunnen we Odoo uitbreiden naarmate ons bedrijf groeit?", a: "Ja, schaalbaarheid is een kernvoordeel van Odoo. U kunt beginnen met essentiële modules en later uitbreiden met extra functionaliteit, gebruikers en integraties. We bouwen implementaties die meegroeien met uw bedrijf." },
+        { q: "Hoe zit het met training voor onze medewerkers?", a: "Training is een integraal onderdeel van onze implementaties. We zorgen ervoor dat uw team het systeem begrijpt en effectief kan gebruiken, met hands-on begeleiding en documentatie in het Nederlands." },
+        { q: "Werken jullie ook met bedrijven buiten Vlaanderen?", a: "Onze focus ligt op Vlaamse KMO's, maar we kunnen ook projecten in de rest van België ondersteunen. Neem contact op om uw specifieke situatie te bespreken." },
     ];
 
     function toggle(index: number) {

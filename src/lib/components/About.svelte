@@ -1,20 +1,20 @@
 <section class="bg-black text-white px-6 md:px-12 py-24 border-t border-white/20">
   <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8">
     <div class="md:col-span-4">
-      <h2 class="text-2xl font-medium tracking-tight">US Tech Force</h2>
+      <h2 class="text-2xl font-medium tracking-tight">Digifiers</h2>
     </div>
     <div class="md:col-span-8 space-y-8 text-lg md:text-xl font-light leading-relaxed text-gray-200">
       <p>
-        The US Tech Force is recruiting an elite corps of engineers to build the next generation of government technology. Backed by the White House, Tech Force will tackle the most complex and large-scale civic and defense challenges of our era – from administering critical financial infrastructure at the Treasury Department to advancing cutting-edge programs at the Department of Defense – and everything in between.
+        Digifiers is een Vlaamse Odoo-partner gespecialiseerd in ERP-implementaties voor middelgrote productiebedrijven. We richten ons op KMO's die maatwerk produceren – van gespecialiseerde metaalbewerking tot precisieproductie, van medische apparatuur op maat tot gepersonaliseerde retail.
       </p>
       <p>
-        Through a two-year program, participants will work in teams reporting directly to agency leadership. In collaboration with leading technology companies, participants will receive technical training, engage with industry leaders, and work closely with senior managers from companies partnering with the Tech Force.
+        Ons uitgangspunt is eenvoudig: we passen Odoo aan uw workflow aan, niet andersom. Met 15+ jaar gecombineerde ERP-ervaring en 3+ jaar Odoo-expertise ontwerpen we volledig op maat gemaakte implementaties die aansluiten bij uw unieke productieprocessen en bedrijfsvoering.
       </p>
       <p>
-        Upon completing the program, engineers can seek employment with the partnering private-sector companies for potential full-time roles – demonstrating the value of combining civil service with technical expertise.
+        Als officiële Odoo Ready Partner bieden we end-to-end digitalisering: van business process analyse en implementatie tot custom module development, API-integraties en doorlopende support. We verbinden Odoo naadloos met uw e-commerce platforms, boekhoudsoftware, marketing tools, IoT-apparaten en andere systemen.
       </p>
       <p>
-        If you are highly skilled in the areas of software engineering, artificial intelligence, cybersecurity, data analytics, or technical project management and want to build the future of American government technology, join the Tech Force today.
+        Voor Vlaamse productiebedrijven met 30–100 medewerkers die worstelen met gefragmenteerde legacy tools en complexe workflows, bieden wij de lokale, Nederlandstalige partner die processen stroomlijnt, controle verbetert en schaalbare groei mogelijk maakt.
       </p>
     </div>
   </div>
